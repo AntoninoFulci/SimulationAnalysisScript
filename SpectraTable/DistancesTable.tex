@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{physics}
+\usepackage{lscape}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\usepackage{afterpage}
+\usepackage[pagebackref]{hyperref}
+\usepackage{longtable}
+\usepackage [autostyle]{csquotes}
+\MakeOuterQuote{"}
+\usepackage[margin=1cm]{caption}
+\usepackage{longtable}
+
+\hypersetup{
+    colorlinks,
+    citecolor=[rgb]{0 0.289 0.8},
+    filecolor=[rgb]{0 0.289 0.8},
+    linkcolor=[rgb]{0.847 0.141 0.141},
+    urlcolor=[rgb]{0 0.289 0.8}
+}
+
+\geometry{
+  paperwidth=45cm,
+  paperheight=40cm,
+  left=10mm,
+  right=10mm,
+  bottom=10mm,
+  top=10mm
+}
+
+
+\def\arraystretch{1.25}
+
+\def \FigPath {/home/tony/FlukaWork/HallA/Analisi/2022-04-25 - 11 GeV - Bias - BDX}
+
+\begin{document}
+
+\hspace{0pt}
+\vfill
+
+\begin{huge}
+\begin{center}
+\textbf{Neutrinos vs Depth}
+\end{center}
+
+
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+P $\cdot$ m$^2$/EOT vs Y & P $\cdot$ m$^2$/EOT vs Y \\ \hline
+ \includegraphics[scale=0.25]{\FigPath /Grafici_Distanze/ane&ne_P_EOT_vs_Y - 0-500 MeV.png}
+&\includegraphics[scale=0.25]{\FigPath /Grafici_Distanze/ane&ne_P_EOT_vs_Z - 0-500 MeV.png} \\ \hline
+\end{tabular}
+\caption{Table made from \FigPath}
+\end{table}
+
+\begin{center}
+\textbf{Neutrons vs Depth}
+\end{center}
+
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+                                & $E_k < 20$ MeV & $20 < E_k < 100$ MeV & $E_k > 100$ MeV \\ \hline
+P $\cdot$ m$^2$/EOT  vs Y 
+  & \includegraphics[scale=0.25]{\FigPath /neutron_20/P_EOT vs Y - 0-20 MeV}                  
+  & \includegraphics[scale=0.25]{\FigPath /Grafici_Distanze/neutron_P_EOT_vs_Y - 20-100 MeV.png}                                 
+  & \includegraphics[scale=0.25]{\FigPath /Grafici_Distanze/neutron_P_EOT_vs_Y - 100-11 MeV.png} \\ \hline
+P $\cdot$ m$^2$/EOT  vs Z 
+  & \includegraphics[scale=0.25]{\FigPath /neutron_20/P_EOT vs Z - 0-20 MeV}                  
+  & \includegraphics[scale=0.25]{\FigPath /Grafici_Distanze/neutron_P_EOT_vs_Z - 20-100 MeV.png}                                 
+  & \includegraphics[scale=0.25]{\FigPath /Grafici_Distanze/neutron_P_EOT_vs_Z - 100-11 MeV.png} \\ \hline
+\end{tabular}
+\caption{Table made from \FigPath}
+\end{table}
+
+\vfill
+\hspace{0pt}
+
+\end{huge}
+
+
+
+\end{document}

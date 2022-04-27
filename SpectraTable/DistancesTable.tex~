@@ -1,0 +1,407 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{physics}
+\usepackage{lscape}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\usepackage{afterpage}
+\usepackage[pagebackref]{hyperref}
+\usepackage{longtable}
+\usepackage [autostyle]{csquotes}
+\MakeOuterQuote{"}
+\usepackage[margin=1cm]{caption}
+\usepackage{longtable}
+
+\hypersetup{
+    colorlinks,
+    citecolor=[rgb]{0 0.289 0.8},
+    filecolor=[rgb]{0 0.289 0.8},
+    linkcolor=[rgb]{0.847 0.141 0.141},
+    urlcolor=[rgb]{0 0.289 0.8}
+}
+
+\geometry{
+paperwidth=60cm,
+paperheight=300cm,
+ left=10mm,
+ right=10mm,
+ bottom=10mm,
+ top=10mm
+}
+
+
+\def\arraystretch{1.25}
+
+\def \FigPath {/home/tony/FlukaWork/HallA/Analisi/2022-04-25 - 11 GeV - Bias - BDX}
+
+\begin{document}
+
+
+
+\begin{huge}
+  
+
+
+
+\begin{longtable}[c]{|llllll|}
+\hline
+\multicolumn{1}{|l|}{Detector} &
+  \multicolumn{1}{l|}{Distanza} &
+  \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}\textbf{Neutrino}\\ $0 < E < 500$ MeV\end{tabular}} &
+  \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}\textbf{Neutron}\\ $E_k < 20 $ MeV\end{tabular}} &
+  \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}\textbf{Neutron}\\ 20 MeV $< E_k <$ 100 MeV\end{tabular}} &
+  \begin{tabular}[c]{@{}l@{}}\textbf{Neutron}\\ $E_k > 100$ MeV\end{tabular} \\ \hline
+\multicolumn{6}{|c|}{\textbf{Detectors along the Y-axis}}                                                                                       \\ \hline
+\multicolumn{1}{|l|}{Detector 1}   
+  & \multicolumn{1}{l|}{Y: 1.0668}  
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 1_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det1 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 1_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 1_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 2}   
+  & \multicolumn{1}{l|}{Y: 1.37}    
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 2_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det2 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 2_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 2_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 3}   
+  & \multicolumn{1}{l|}{Y: 1.64}    
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 3_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det3 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 3_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 3_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 4}   
+  & \multicolumn{1}{l|}{Y: 2.04}    
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 4_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det4 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 4_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 4_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 5}   
+  & \multicolumn{1}{l|}{Y: 2.47}    
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 5_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det5 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 5_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 5_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 6}   
+  & \multicolumn{1}{l|}{Y: 2.97}      
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 6_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det6 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 6_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 6_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 7}   
+  & \multicolumn{1}{l|}{Y: 3.47}    
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 7_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det7 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 7_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 7_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 8}   
+  & \multicolumn{1}{l|}{Y: 3.97}    
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 8_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det8 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 8_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 8_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 9}   
+  & \multicolumn{1}{l|}{Y: 4.32}    
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 9_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det9 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 9_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 9_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 10}  
+  & \multicolumn{1}{l|}{Y: 4.65}    
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 10_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det10_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 10_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 10_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 11}  
+  & \multicolumn{1}{l|}{Y: 5}       
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 11_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det11_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 11_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 11_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 12}  
+  & \multicolumn{1}{l|}{Y: 5.5}     
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 12_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det12_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 12_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 12_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 13}  
+  & \multicolumn{1}{l|}{Y: 6}       
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 13_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det13_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 13_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 13_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 14}  
+  & \multicolumn{1}{l|}{Y: 6.5}     
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 14_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det14_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 14_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 14_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 15}  
+  & \multicolumn{1}{l|}{Y: 7}       
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 15_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det15_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 15_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 15_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 16}  
+  & \multicolumn{1}{l|}{Y: 7.4}     
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 16_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det16_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 16_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 16_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 17}  
+  & \multicolumn{1}{l|}{Y: 7.8}     
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 17_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Up_Det17_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 17_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 17_0.1-11GeV.png}\\ \hline
+\multicolumn{6}{|c|}{\textbf{Detectors along the Z-axis}}                                                                                       \\ \hline
+\multicolumn{1}{|l|}{Detector 101} 
+  & \multicolumn{1}{l|}{Z: 6.86854} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 101_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det1 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 101_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 101_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 102} 
+  & \multicolumn{1}{l|}{Z: 7.1246}  
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 102_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det2 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 102_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 102_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 103} 
+  & \multicolumn{1}{l|}{Z: 7.4246}  
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 103_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det3 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 103_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 103_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 104} 
+  & \multicolumn{1}{l|}{Z: 7.7146}  
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 104_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det4 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 104_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 104_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 105} 
+  & \multicolumn{1}{l|}{Z: 8.5146}  
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 105_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det5 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 105_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 105_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 106} 
+  & \multicolumn{1}{l|}{Z: 9.0146}  
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 106_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det6 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 106_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 106_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 107} 
+  & \multicolumn{1}{l|}{Z: 9.5146}  
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 107_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det7 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 107_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 107_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 108} 
+  & \multicolumn{1}{l|}{Z: 10.0146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 108_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det8 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 108_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 108_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 109} 
+  & \multicolumn{1}{l|}{Z: 10.5146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 109_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det9 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 109_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 109_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 110} 
+  & \multicolumn{1}{l|}{Z: 11.0146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 110_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det10_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 110_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 110_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 111} 
+  & \multicolumn{1}{l|}{Z: 11.5146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 111_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det11_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 111_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 111_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 112} 
+  & \multicolumn{1}{l|}{Z: 12.0146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 112_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det12_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 112_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 112_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 113} 
+  & \multicolumn{1}{l|}{Z: 12.5146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 113_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det13_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 113_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 113_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 114} 
+  & \multicolumn{1}{l|}{Z: 13.0146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 114_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det14_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 114_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 114_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 115} 
+  & \multicolumn{1}{l|}{Z: 13.5146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 115_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det15_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 115_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 115_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 116} 
+  & \multicolumn{1}{l|}{Z: 14.0146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 116_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det16_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 116_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 116_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 117} 
+  & \multicolumn{1}{l|}{Z: 14.5146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 117_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det17_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 117_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 117_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 118} 
+  & \multicolumn{1}{l|}{Z: 14.7546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 118_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det18_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 118_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 118_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 119} 
+  & \multicolumn{1}{l|}{Z: 14.9546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 119_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det19_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 119_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 119_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 120} 
+  & \multicolumn{1}{l|}{Z: 15.4546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 120_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det20_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 120_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 120_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 121} 
+  & \multicolumn{1}{l|}{Z: 15.9546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 121_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det21_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 121_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 121_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 122} 
+  & \multicolumn{1}{l|}{Z: 16.4546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 122_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det22_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 122_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 122_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 123} 
+  & \multicolumn{1}{l|}{Z: 16.9546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 123_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det23_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 123_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 123_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 124} 
+  & \multicolumn{1}{l|}{Z: 17.4546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 124_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det24_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 124_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 124_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 125} 
+  & \multicolumn{1}{l|}{Z: 17.9546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 125_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det25_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 125_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 125_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 126} 
+  & \multicolumn{1}{l|}{Z: 18.4546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 126_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det26_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 126_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 126_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 127} 
+  & \multicolumn{1}{l|}{Z: 18.9546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 127_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det27_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 127_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 127_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 128} 
+  & \multicolumn{1}{l|}{Z: 19.4546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 128_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det28_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 128_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 128_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 129} 
+  & \multicolumn{1}{l|}{Z: 19.9546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 129_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det29_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 129_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 129_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 130} 
+  & \multicolumn{1}{l|}{Z: 20.4546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 130_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det30_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 130_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 130_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 131} 
+  & \multicolumn{1}{l|}{Z: 20.9546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 131_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det31_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 131_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 131_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 132} 
+  & \multicolumn{1}{l|}{Z: 21.4546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 132_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det32_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 132_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 132_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 133} 
+  & \multicolumn{1}{l|}{Z: 21.9546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 133_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det33_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 133_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 133_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 134} 
+  & \multicolumn{1}{l|}{Z: 22.1546} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 134_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det34_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 134_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 134_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 135} 
+  & \multicolumn{1}{l|}{Z: 22.8346} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 135_0-0.5GeV.png}} 
+  & %\multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det35_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 135_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 135_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 136} 
+  & \multicolumn{1}{l|}{Z: 25.2146} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 136_0-0.5GeV.png}} 
+  & %\multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Fw_Det36_0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 136_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 136_0.1-11GeV.png}\\ \hline
+\multicolumn{6}{|c|}{\textbf{Other detectors}}                                                                                                 \\ \hline
+\multicolumn{1}{|l|}{Detector 201} 
+  & \multicolumn{1}{l|}{D: $\approx$ 7.8}         
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 201_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Ot_Det1 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 201_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 201_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 202} 
+  & \multicolumn{1}{l|}{D: $\approx$ 10.36}         
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 202_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Ot_Det2 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 202_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 202_0.1-11GeV.png}\\ \hline
+\multicolumn{1}{|l|}{Detector 203} 
+  & \multicolumn{1}{l|}{D: $\approx$ 26.17}         
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/ane&ne/ane&ne_Detector 203_0-0.5GeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /neutron_20/Grafici/neutron_Energy_Ot_Det3 _0-20MeV.png}} 
+  & \multicolumn{1}{l|}{\centering  \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 203_0.02-0.1GeV.png}} 
+  &                                 \includegraphics[scale=0.25]{\FigPath /Grafici/neutron/neutron_Detector 203_0.1-11GeV.png}\\ \hline
+
+\caption{Spectra made from \FigPath}
+\end{longtable}
+
+
+\end{huge}
+
+
+
+
+
+\end{document}
